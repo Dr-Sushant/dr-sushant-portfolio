@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://steth2tech.com/sitemap.xml
