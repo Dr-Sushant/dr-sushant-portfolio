@@ -8,7 +8,15 @@ export default function Home() {
     <Nav />
 <Head>
   <title>Dr. Sushant | Biomedical Data Science</title>
+
+  <link rel="canonical" href="https://steth2tech.com" />
+
+  <meta
+    name="google-site-verification"
+    content="EOBVgmoShLRMlM5vHr0TvOH_W6mJfxtvKoUHESK6hFU"
+  />
 </Head>
+
 
     <main className="min-h-screen bg-white text-slate-900">
       <section className="max-w-5xl mx-auto px-6 py-24">
