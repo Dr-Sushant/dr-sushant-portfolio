@@ -5,7 +5,6 @@ import Nav from "../components/Nav"
 export default function Home() {
   return (
    <>
-    <Nav />
 <Head>
   <title>Dr. Sushant | Biomedical Data Science</title>
 
@@ -16,6 +15,8 @@ export default function Home() {
     content="EOBVgmoShLRMlM5vHr0TvOH_W6mJfxtvKoUHESK6hFU"
   />
 </Head>
+    <Nav />
+
 
 
     <main className="min-h-screen bg-white text-slate-900">
