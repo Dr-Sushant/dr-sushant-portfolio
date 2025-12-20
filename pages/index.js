@@ -29,12 +29,15 @@ export default function Home() {
           Biomedical Data Scientist · Clinical AI · Imaging Informatics
         </p>
 
-        <p className="mt-8 text-lg text-slate-700 max-w-3xl">
-          Physician-trained data scientist building clinically grounded AI systems
-          across medical imaging, risk stratification, and decision support.
-          Focused on translating research-grade models into deployable,
-          interpretable workflows for real-world healthcare.
-        </p>
+        <p className="mt-6 text-lg text-slate-700 max-w-3xl">
+  <strong>Steth2Tech</strong> is a personal clinical AI and biomedical data science
+  portfolio by <strong>Dr. Sushant</strong>, a physician-trained data scientist
+  working at the intersection of medical imaging, clinical NLP, and decision
+  support systems. The platform showcases applied projects, case studies, and
+  research-driven implementations focused on translating clinically grounded
+  machine learning models into real-world healthcare workflows.
+</p>
+
 
         <div className="mt-10 flex gap-4">
           <a
