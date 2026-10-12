@@ -22,8 +22,38 @@ export default function Projects() {
           </p>
 
           <div className="mt-12 space-y-10">
-
+            
             {/* Project 1 */}
+            <div className="border rounded-lg p-6">
+              <h2 className="text-2xl font-semibold">
+                <a href="/trustsyn" className="hover:underline">
+                  TrustSyn | Biomedical AI Research
+                </a>
+              </h2>
+
+              <p className="mt-3 text-slate-700">
+                A biomedical machine learning research prototype exploring
+                anticancer drug-combination activity prediction using
+                NCI-ALMANAC experimental data, with split-specific evaluation
+                and model interpretability.
+              </p>
+
+              <ul className="mt-4 text-slate-600 list-disc list-inside">
+                <li>Drug-combination activity prediction</li>
+                <li>CatBoost, XGBoost, D-MPNN and stacked models</li>
+                <li>Held-out evaluation and SHAP-based interpretability</li>
+                <li>Planned API, containerization and cloud engineering</li>
+              </ul>
+
+              <a
+                href="/trustsyn"
+                className="inline-block mt-5 px-5 py-2 border border-slate-300 rounded-lg hover:bg-slate-100 transition"
+              >
+                Explore TrustSyn →
+              </a>
+            </div>
+
+            {/* Project 2 */}
             <div className="border rounded-lg p-6">
               <h2 className="text-2xl font-semibold">
                 <a
@@ -49,7 +79,7 @@ export default function Projects() {
             </div>
 
 
-            {/* Project 2 */}
+            {/* Project 3 */}
 
             <div className="border rounded-lg p-6">
               <h2 className="text-2xl font-semibold">
@@ -75,7 +105,7 @@ export default function Projects() {
               </ul>
             </div>
 
-            {/* Project 3 */}
+            {/* Project 4 */}
             <div className="border rounded-lg p-6">
               <h2 className="text-2xl font-semibold">
                 <a href="/pinkscan-ai" className="hover:underline">
